@@ -1,0 +1,132 @@
+.container{
+  margin-left: 40px;
+  transition: margin-left 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.container-titulo{
+  color: #c7c7d0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+
+button {
+  background-color: #ef5483;
+  color: #c7c7d0;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color:#ca165c;
+}
+
+.inv-container{
+  max-height: 370px;
+  overflow-y: auto;
+}
+
+/* Estilos para la tabla */
+.product-table {
+  width: 60%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 300px;
+  background-color: #38374f;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #c7c7d0;
+}
+
+.stockdiv{
+  width: 60%;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 300px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para el encabezado de la tabla */
+.stockdiv th {
+  background-color: #272638;
+  padding: 4px;
+  text-align: left;
+  border-bottom: 10px solid #272638;
+}
+.nbtn{
+  margin-left: 70px;
+}
+
+.pbtn{
+  margin-left: 90px;
+}
+
+.cbtn{
+  margin-left: 35px;
+}
+
+.catbtn{
+  margin-left: 50px;
+}
+
+.stockdiv th{
+  color: #c7c7d0;
+  
+}
+
+/* Estilos para las celdas de la tabla */
+.stockdiv td {
+  padding: 10px;
+  border-bottom: 10px solid  #272638;
+}
+
+td{
+  color: #c7c7d0;
+}
+/* Estilos para el hover (opcional) */
+
+
+/* Estilos para los botones */
+.product-table button {
+  color: #c7c7d0;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.product-table td{
+  border-left: 2px solid rgba(255, 255, 255, 0.2); /*limita el borde izquierdo de la celda*/
+  padding: 9px;
+}
+
+.actbt{
+  background-color: rgb(39, 172, 127);
+}
+.actbt:hover{
+  background-color: rgb(24, 139, 99);
+}
+
+.elimbt{
+  background-color: rgb(209, 73, 73);
+}
+
+.elimbt:hover{
+  background-color: rgb(177, 41, 41);
+}
+

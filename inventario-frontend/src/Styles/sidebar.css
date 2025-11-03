@@ -1,0 +1,80 @@
+/* src/styles/Sidebar.css */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #38374f;
+  color: #c7c7d0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease-in-out;
+  position: fixed; /* Asegura que el sidebar esté siempre visible */
+  top: 0;
+  left: -210px; /* Oculta la barra al inicio */
+  z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+  
+  .sidebar ul li a {
+    color: #c7c7d0;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #272638;
+  }
+
+  .sidebar ul li a.active {
+    color: #272638; /* Cambia el color del enlace activo */
+    font-weight: bold; /* O cualquier otro estilo que prefieras */
+  }
+
+  .sidebar.active {
+    left: 0 !important;
+    
+}
+
+
+.sidebar.active ~ .main-content {
+  margin-left: 250px;
+}
+
+.togglebtn {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: left 0.3s ease-in-out;
+  z-index: 1200;
+}
+
+
+.togglebtn.active {
+  left: 220px;
+}
+
+
+.togglebtn:hover {
+  background-color: #555;
+}
+
